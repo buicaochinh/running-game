@@ -1,5 +1,0 @@
-const CANVAS_WIDTH = 1500;
-const CANVAS_HEIGHT = 900;
-const BACKGROUND_COLOR = '0xeeeeee';
-
-const ROAD_END_POINT = 1400;

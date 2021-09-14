@@ -3,9 +3,10 @@ const settingSprite = ({ sprite, firstX, firstY, width, height, anchor, speed })
     sprite.width = width;
     sprite.height = height;
     sprite.anchor.set(anchor);
-    app.stage.addChild(sprite);
+    runScreen.addChild(sprite);
     sprite.play()
     sprite.animationSpeed = speed;
+    sprite.ready = false;
 }
 
 const loadCat = () => {
